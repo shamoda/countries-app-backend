@@ -13,22 +13,22 @@ This project was created as the solution for the Practical Test of Pearson Lanka
 
 ### Exposed REST end-points
 > - To retrieve all countries send a GET request to:
-> http://localhost:8080/rest/v2/all
+> - http://localhost:8080/rest/v2/all
 
 > - To retrieve a specific country send a GET request with country id to:
-> http://localhost:8080/rest/v2/country/`101`
+> - http://localhost:8080/rest/v2/country/`101`
 
 > - To insert new record send a POST request payload to:
-> http://localhost:8080/rest/v2/add
+> - http://localhost:8080/rest/v2/add
 
 > - To update existing record send a PUT request payload to:
-> http://localhost:8080/rest/v2/update
+> - http://localhost:8080/rest/v2/update
 
 > - To delete specific record send a DELETE request with country id to:
-> http://localhost:8080/rest/v2/delete/`101`
+> - http://localhost:8080/rest/v2/delete/`101`
 
 > - To delete all records send a DELETE request to:
-> http://localhost:8080/rest/v2/deleteall
+> - http://localhost:8080/rest/v2/deleteall
 
 ---
 
