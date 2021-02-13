@@ -16,7 +16,7 @@ This project was created as the solution for the Practical Test of Pearson Lanka
 > - http://localhost:8080/rest/v2/all
 
 > - To retrieve a specific country send a GET request with country id to:
-> - http://localhost:8080/rest/v2/country/`101`
+> - http://localhost:8080/rest/v2/country/{id}
 
 > - To insert new record send a POST request payload to:
 > - http://localhost:8080/rest/v2/add
@@ -25,7 +25,7 @@ This project was created as the solution for the Practical Test of Pearson Lanka
 > - http://localhost:8080/rest/v2/update
 
 > - To delete specific record send a DELETE request with country id to:
-> - http://localhost:8080/rest/v2/delete/`101`
+> - http://localhost:8080/rest/v2/delete/{id}
 
 > - To delete all records send a DELETE request to:
 > - http://localhost:8080/rest/v2/deleteall
