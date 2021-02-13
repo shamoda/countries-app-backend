@@ -32,7 +32,7 @@ This project was created as the solution for the Practical Test of Pearson Lanka
 
 ---
 
-#### Use this JSON object to start testing with POST request
+#### Use below JSON object to start testing with POST request
 ```
 {
     "name": "Japan",
