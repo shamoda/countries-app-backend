@@ -57,7 +57,13 @@ public class CountryController {
 	
 	@DeleteMapping("/delete/{id}")													// delete country record
 	public ResponseEntity<?> deleteCountry(@PathVariable("id") Long id) {
-		countryService.deleteCountry(id);											// calling service class method and assign returned data in to a variable
+		countryService.deleteCountry(id);											// calling service class method 
+		return new ResponseEntity<>(HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/deleteall")													// delete all country records
+	public ResponseEntity<?> deleteAllCountries() {
+		countryService.deleteAllCountries();										// calling service class method 
 		return new ResponseEntity<>(HttpStatus.OK);
 	}
 	

@@ -42,6 +42,10 @@ public class CountryService {
 		countryRepository.deleteById(id);														// delete existing record
 	}
 	
+	public void deleteAllCountries() {
+		countryRepository.deleteAll();															// delete all existing records
+	}
+	
 	
 
 }
