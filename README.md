@@ -2,7 +2,7 @@
 
 This project was created as the solution for the Practical Test of Pearson Lanka.
 
-### Exposed REST End-Point (Demo) : https://countries-app-practical-test.herokuapp.com/rest/v2/
+#### Exposed REST End-Point (Demo) : https://countries-app-practical-test.herokuapp.com/rest/v2/
 
 #### This back-end was created using Spring Boot framework.
 
